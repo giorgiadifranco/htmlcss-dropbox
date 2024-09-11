@@ -152,7 +152,7 @@ img{
     
 .card{
     display: flex;
-    margin-top: 10px;
+    margin-top: 150px;
     justify-content: flex-end;
 }
 .card_img{
