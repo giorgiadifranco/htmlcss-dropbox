@@ -18,7 +18,7 @@ body{
 
 /* #regio debug */
 .debug {
-    border: 1px dashed;
+    /border: 1px dashed;
 }
 .debug header{
     /background-color: rgba(0, 0, 255, 0.397);
@@ -58,7 +58,7 @@ body{
 .hero{
     width: 100%;
     margin-bottom:10px;
-    border-color: #000000;
+    /*border-color: #000000; */
 }
 .container{
     display: flex;
@@ -152,16 +152,38 @@ img{
     
 .card{
     display: flex;
-    margin-top: 150px;
-    justify-content: flex-end;
+    margin-top: 200px;
+    justify-content: space-between ;
+    flex-direction: column ;
 }
 .card_img{
-    width:70%
+    width: 100%;
+    margin-top: 40px;
 }
 .jumbo{
     width: 100%;
     margin-bottom: -5vw;
     max-width: 100%;
     padding-top: 150px;
+}
+.free_trial{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    padding: 1rem;
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+    margin-top: 100px;
+}
+.arrow_down{
+   
+    margin-top:3rem;
+    justify-content: space-between;
+    
+ }
+
+.annulla{
+    padding-top: 50px;
 }
 }
