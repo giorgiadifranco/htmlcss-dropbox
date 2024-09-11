@@ -11,6 +11,9 @@
     --drop-bghero: #b4d0e7;
     --drop-ttxt: #000000;
 }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 /* #endregion common */
 
 /* #regio debug */
@@ -23,6 +26,7 @@
 /* #endregion debug */
 
 /* #region utilities */
+
 .d-flex{
     display: flex;
 }
@@ -72,14 +76,14 @@
    
    
    .calltoaction{
-    width: 15%;
+    width: ;
     justify-content: space-between;
     padding-right:1px;
     
     
    }
    .menu_right{
-    width: 35%;
+    
     padding-right: 10px;
     padding-left: 10px;
     justify-content: space-around ;
