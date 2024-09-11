@@ -24,7 +24,7 @@ body{
     /background-color: rgba(0, 0, 255, 0.397);
 }
 .debug main{
-    background-color: #75a0e64b;
+    /background-color: #75a0e64b;
 }
 /* #endregion debug */
 
@@ -58,12 +58,20 @@ body{
 .hero{
     width: 100%;
     margin-bottom:10px;
-    /*border-color: #000000; */
+    background-color: var(--drop-bghero);
 }
 .container{
     display: flex;
     width:80%;
 
+}
+.container_sm   {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    flex-wrap: wrap;
 }
 .row{
     display:flex;
@@ -149,7 +157,10 @@ img{
 
 /* region main */
 #app_main{
-    
+.place{
+    display: flex;
+    justify-content: space-between;
+}
 .card{
     display: flex;
     margin-top: 200px;
@@ -185,5 +196,10 @@ img{
 
 .annulla{
     padding-top: 50px;
+}
+/* #section_business_plan */
+.title_business{
+    display: flex;
+    width: 100%;
 }
 }
