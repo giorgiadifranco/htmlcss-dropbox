@@ -18,7 +18,7 @@ body{
 
 /* #regio debug */
 .debug {
-    border: 1px dashed;
+    /border: 1px dashed;
 }
 .debug header{
     background-color: rgba(0, 0, 255, 0.397);
@@ -58,7 +58,6 @@ body{
    .menu_left{
     padding-left: 10px;
     justify-content: space-around ;
-    
     a{
         padding: 10px;
         text-decoration: none;
@@ -76,12 +75,27 @@ body{
    
    
    .calltoaction{
-    width: ;
+    
     justify-content: space-between;
     padding-right:1px;
+
+    .access{
+        text-decoration: none;
+        color: black;
+    }
+    .login {
+        padding: .5rem;
+        text-decoration: none;
+        color: white;
+        background-color: var(--drop-cta);
+        border-radius: 10%;
+    }
+
     
-    
-   }
+        
+    }       
+       
+
    .menu_right{
     
     padding-right: 10px;
@@ -93,7 +107,9 @@ body{
         text-decoration: none;
         color: var(--drop-ttxt);
 
-    }   }
+    }
+    
+}
 
 }
 
