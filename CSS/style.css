@@ -1,0 +1,17 @@
+/* #region common */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* #endregion common */
+
+/* #regio debug */
+.debug {
+    border: 1px dashed;
+}
+.debug header{
+    background-color: rgba(0, 0, 255, 0.397);
+}
+/* #endregion debug */
