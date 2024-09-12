@@ -3,7 +3,9 @@
     /*    margin:0;
         padding:0;*/
         box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
     }
+    
     
     :root{
         --drop-cta: #0061ff;
@@ -16,7 +18,7 @@
     }
     /* #endregion common */
     
-    /* #regio debug */
+    /* #region debug */
     .debug *{
         border: 1px dashed;
     }
@@ -24,6 +26,9 @@
     /* #endregion debug */
     
     /* #region utilities */
+    a{
+        text-decoration: none;
+    }
     .col-4{
         width: calc((100%/12)*4);
     }
@@ -110,6 +115,7 @@
     
     .hero-container{
         width: 100%;
+        background-color: var(--drop-bghero);
     }
     
     .title-container{
@@ -133,9 +139,37 @@
         margin-left: 20%;
         margin-right: 20%;
     }
-        
-    
-    
+    h1{
+        text-align: center;
+    }
+    .free_trial{
+        display: flex;
+        justify-content: center;
+        width: 60%;
+        padding: 1rem;
+        color: white;
+        background-color: blue;
+    }
+    .arrow_down{
+            margin-top:3rem;
+            justify-content: space-between;
+            
+            .fa-arrow-down {
+                font-size: 40px;
+     }
+    }
+.card_img{
+    position: relative;
+}
+
+.jumbo{
+    width: 550px;
+    position:absolute;
+    top: 10%; 
+}  
+botton
+}
+
     
     
     
