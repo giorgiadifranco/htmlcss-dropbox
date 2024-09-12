@@ -61,7 +61,7 @@ body{
     width: 100%;
     margin-bottom:10px;
     /background-color: var(--drop-bghero);
-    align-content: center;
+    justify-content: center;
     
 }
 .container{
@@ -96,6 +96,9 @@ img{
     width: 80%;
     display: flex;
     justify-content: center;
+    padding:3rem;
+    margin-left:10%
+    
 }
 .title_business{
     display: flex;
