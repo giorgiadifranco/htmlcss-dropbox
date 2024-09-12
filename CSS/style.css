@@ -56,11 +56,12 @@ body{
 .col-8{
     width: calc((100%/12)*8);
 }
-/.hero{
+.hero{
     
     width: 100%;
     margin-bottom:10px;
-    background-color: var(--drop-bghero);
+    /background-color: var(--drop-bghero);
+    align-content: center;
     
 }
 .container{
@@ -90,6 +91,15 @@ body{
 }
 img{
     max-width: 100%;
+}
+.title_hero{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.title_business{
+    display: flex;
+    justify-content: center;
 }
 
 /* #endregion utilities */
@@ -209,14 +219,12 @@ img{
     padding-top: 50px;
 }
 /* #section_business_plan */
-.title_business{
-    display: flex;
-    width: 100%;
-}
 
 }
-.title{
-    display: flex;
-    justify-content: center;
+.business_plan{
+    margin-top: 4rem;
+    
+    
+
 }
 }
