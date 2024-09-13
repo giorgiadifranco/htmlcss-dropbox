@@ -19,7 +19,7 @@
     /* #endregion common */
     
     /* #region debug */
-        .debug *{
+        /.debug *{
         border: 1px dashed;
     }
     
@@ -172,8 +172,12 @@
 botton
 }
 
-card{
-    
+.row_name_pack{
+display: flex;
+
+}
+.fa-check{
+    color:var(--drop-cta)
 }
     
     
