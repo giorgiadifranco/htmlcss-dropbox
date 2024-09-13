@@ -14,6 +14,8 @@
         --drop-white: #ffffff;
         --drop-bghero: #b4d0e7;
         --drop-ttxt: #000000;
+        --drop-logo-design-green-lignt:#d1e9cd ;
+        --drop-logo-design-green-dark: #a2d39b;
     }
     body{
         font-family:;
@@ -242,9 +244,20 @@
 }
 }
 
-}
+
 /* loghi */
 .logo_partner{
     display: grid;
     grid-template-columns: ;
 }
+.card-top{
+    width:120px;
+    height: 120px;
+}
+.card_bottom{
+    width:120px;
+    height: 120px;
+}
+.square{
+    width:120px;
+    height: 120px;
