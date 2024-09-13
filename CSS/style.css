@@ -229,3 +229,7 @@
     color:var(--drop-ttxt)
 }
 }
+.card_operation{
+    padding-top: 10%;
+    padding-bottom: 3%;
+}
