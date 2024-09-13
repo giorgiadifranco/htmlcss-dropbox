@@ -19,7 +19,7 @@
     /* #endregion common */
     
     /* #region debug */
-    .debug *{
+        .debug *{
         border: 1px dashed;
     }
     
@@ -49,6 +49,7 @@
         margin:0 auto;
         width: 100%;
     }
+   
     .h_left{
         width:50%;
         padding: 1rem;
@@ -138,6 +139,7 @@
         width: 60%;
         margin-left: 20%;
         margin-right: 20%;
+        margin-top: 4rem;
     }
     h1{
         text-align: center;
@@ -170,7 +172,9 @@
 botton
 }
 
+card{
     
+}
     
     
     
