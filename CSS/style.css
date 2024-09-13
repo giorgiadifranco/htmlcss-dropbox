@@ -209,3 +209,23 @@
     padding-left: 3%;
     padding-right:3%
 }
+.row_vuoto{
+    padding-bottom: 2.5rem;
+}
+.tab_header_e{
+    
+    padding-left: 3%;
+}
+
+.card_partner{
+    padding-left: 3%;
+    .p{
+        space-around;
+    }
+.partner_btn{
+    text-decoration: none;
+    padding:1rem;
+    justify-content: center;
+    color:var(--drop-ttxt)
+}
+}
