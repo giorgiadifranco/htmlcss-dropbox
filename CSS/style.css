@@ -5,7 +5,9 @@
         box-sizing: border-box;
         font-family: Arial, Helvetica, sans-serif;
     }
-    
+     img{
+        max-width: 100%;
+     }
     
     :root{
         --drop-cta: #0061ff;
@@ -14,12 +16,14 @@
         --drop-ttxt: #000000;
     }
     body{
-        font-family: Arial, Helvetica, sans-serif;
+        font-family:;
     }
+  
+      
     /* #endregion common */
     
     /* #region debug */
-        /.debug *{
+        .debug *{
         border: 1px dashed;
     }
     
@@ -44,6 +48,7 @@
     #header{
         width: 100%;
         background-color: var(--drop-white);
+        
     }
     #headerContent{
         margin:0 auto;
@@ -120,15 +125,19 @@
     }
     
     .title-container{
+        padding-top:3%;
         width: 80%;
         margin-left: 10%;
         margin-right: 10%;
+        h1{
+           padding:1rem;
+        }
     }
     
     .image-container{
-        width: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
+        width: 70%;
+        margin-left: 20%;
+        margin-right: 20%;
     
     }
     
@@ -147,7 +156,7 @@
     .free_trial{
         display: flex;
         justify-content: center;
-        width: 60%;
+        width: 100%;
         padding: 1rem;
         color: white;
         background-color: blue;
@@ -163,22 +172,40 @@
 .card_img{
     position: relative;
 }
-
-.jumbo{
-    width: 550px;
-    position:absolute;
+.row_fatturazione{
+    pa
+}
+/*.jumbo{
+    /width: 550px;
+      position:absolute;
     top: 10%; 
-}  
-botton
-}
+}  */
 
-.row_name_pack{
-display: flex;
-
-}
 .fa-check{
     color:var(--drop-cta)
 }
+  .fatturazione_m{
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    align-items: center;
     
     
-    
+    h3{
+        max-width: ;
+    }
+  } 
+  .card_title_sm{
+    padding-top: 1rem;
+    h2{
+        padding-bottom:3%
+    }
+  }
+  
+  .tab_header{
+    justify-content: center;
+  }
+.card_body, .tab_footer{
+    padding-left: 3%;
+    padding-right:3%
+}
