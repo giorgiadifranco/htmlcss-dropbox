@@ -16,6 +16,8 @@
         --drop-ttxt: #000000;
         --drop-logo-design-green-lignt:#d1e9cd ;
         --drop-logo-design-green-dark: #a2d39b;
+        --drop-logo-arizona: #61082b;
+        --drop-logo-red: #ff1c1c;
     }
     body{
         font-family:;
@@ -288,45 +290,96 @@
     
     
 }
-.designit{
-    position:
-    width: 90%;
-    height: 90%;
-
-    padding-left:%;
-}
-.square_img{
-    /display: flex;
-    justify-content: center;
-    width:150px;
-    height: 150px;
-    padding-top:
-}
-.florida{
-    width: 80%;
-    padding-top:40%;
-    padding-bottom: 40%
-       
-}
-.grid{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) ;
-    grid-auto-rows: 300px ;
-}
-.item{ 
-    border:1px solid red;
-    padding 20px;
-}
+/* grid partner */
 .grid_2{
     display: grid;
     grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
     grid-template-rows: 1fr 1fr  ;
     gap: 10px;
-
-}
-.item3{ 
-    grid-row: span 2;
+    
 }
 .row_grid{
     width:100%;
 }
+.item1{
+    width: ;
+    display: flex;
+    justify-content:center ;
+    
+    .designit{
+        padding: 30%;.
+        width: 50%;
+}
+}
+
+
+
+.item2{
+    display: flex;
+    justify-content:center ;
+    background-color: var(--drop-logo-arizona);
+
+    .arizona{
+    width:60%;
+    color: ;
+}
+}
+
+.item3{ 
+    display: flex;
+    justify-content:flex-start ;
+    grid-row: span 2;
+    .designit2{
+        width:50%;
+        height: 40%;
+        padding-top:0%;
+        
+    }
+}
+.item4{
+    display: flex;
+    justify-content:center ;
+    background-color: var(--drop-logo-red);
+    
+    
+    .world-b-r{
+        width: 50%;
+
+    }
+}
+.item5{
+    display: flex;
+    justify-content:center ;
+
+    .hearts_c{
+        width:50%;
+    }
+}
+
+.item6{
+    display: flex;
+    justify-content:center ;
+
+  
+    .florida{
+    width: ;
+       padding-top: 30%;
+       padding-bottom: 30%;
+    }
+}
+.items7{
+   
+  
+}
+.topps{
+    
+   padding:30%
+    
+}
+.lonelyplanet{
+    
+   padding:30%;
+}
+.clear{
+  
+    padding:30%
