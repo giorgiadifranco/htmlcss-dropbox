@@ -405,3 +405,12 @@
 .clear{
       padding:30%
 }
+.free_trial2{
+    display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 1rem;
+        padding-bottom:
+    color:#000000;
+    background-color: var(--drop-lgo-designit2);
+}
