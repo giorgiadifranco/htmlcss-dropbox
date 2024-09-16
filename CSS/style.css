@@ -30,7 +30,7 @@
     /* #endregion common */
     
     /* #region debug */
-        .debug *{
+        debug *{
         border: 1px dashed;
     }
     
@@ -409,8 +409,24 @@
     display: flex;
         justify-content: center;
         width: 100%;
-        padding: 1rem;
+        *padding: 1rem;
         padding-bottom:
-    color:#000000;
+        
     background-color: var(--drop-lgo-designit2);
+    
+}
+.image_container2{
+    width:100%;
+    padding-bottom:
+    }
+.h2_business{
+    color:var(--drop-logo-arizona)
+}
+.container-sm2{
+    display: inline-block;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 4rem;
+    padding-bottom: 4rem;
 }
