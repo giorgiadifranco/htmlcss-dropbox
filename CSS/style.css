@@ -18,7 +18,10 @@
         --drop-logo-design-green-dark: #a2d39b;
         --drop-logo-arizona: #61082b;
         --drop-logo-red: #ff1c1c;
-    }
+        --drop-logo-florida: #0093ce;
+        --drop-lgo-designit2: #f5f5f5;
+        --drop-logo-lonely-p: #0d2481;
+        --drop-logo-clear:#ffd830;
     body{
         font-family:;
     }
@@ -305,12 +308,15 @@
     width: ;
     display: flex;
     justify-content:center ;
-    
+    background-color: var(--drop-logo-design-green-lignt);
+    padding: 5%
+}
     .designit{
         padding: 30%;.
         width: 50%;
+        background-color: var(--drop-logo-design-green-dark);
 }
-}
+
 
 
 
@@ -318,23 +324,29 @@
     display: flex;
     justify-content:center ;
     background-color: var(--drop-logo-arizona);
-
+}
     .arizona{
     width:60%;
     color: ;
 }
-}
+
 
 .item3{ 
     display: flex;
     justify-content:flex-start ;
     grid-row: span 2;
+   background-color: var(--drop-lgo-designit2);
     .designit2{
         width:50%;
         height: 40%;
         padding-top:0%;
+        padding-left: 7%;
         
     }
+}
+.review{
+    padding-left: 5%;
+    padding-right: 5%;
 }
 .item4{
     display: flex;
@@ -347,39 +359,49 @@
 
     }
 }
+
+
 .item5{
+    background-color: var(--drop-bghero);
     display: flex;
     justify-content:center ;
-
+}
     .hearts_c{
         width:50%;
     }
-}
+
 
 .item6{
     display: flex;
     justify-content:center ;
-
+    background-color: var(--drop-logo-florida);
+}
   
     .florida{
     width: ;
        padding-top: 30%;
        padding-bottom: 30%;
     }
-}
+
 .items7{
-   
-  
+    display: flex;
+    justify-content:center ;
+  background-color: var(--drop-logo-red);
 }
 .topps{
+     padding:30%
     
-   padding:30%
-    
+}
+.item8{
+    background-color: var(--drop-logo-lonely-p);
 }
 .lonelyplanet{
     
    padding:30%;
 }
+.item9{
+    background-color: var(--drop-logo-clear);
+}
 .clear{
-  
-    padding:30%
+      padding:30%
+}
